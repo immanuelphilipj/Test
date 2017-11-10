@@ -1,0 +1,22 @@
+<?xml version = "1.0"?>
+<class>
+   <login name = "Test Login"></login>
+   <password pass ="Test1234"></password>
+</class>
+
+Navigate to http://toolsqa.com
+Open http://toolsa.com
+Launch http://toolsqa.com
+
+(Navigate to|Open|Launch) to (.*com)
+
+(.*)
+java parser  try to match the string with here
+.dot means any character, it occurrence once
+* means any number of times
+
+whenit sees and it make it as input argument.
+
+
+A user is on (.*com) login page
+A user is on http://stating.store.ToolsQA.com login page
